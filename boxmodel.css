@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: linear-gradient(45deg,red 25%,#6610f2); */
+    background-image: linear-gradient(45deg,red 25%,#6610f2);
+    
+}
+.navbox{
+    height: 95px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+}
+#lo{
+    height: 50px;
+    width: 100px;
+}
+#ser{
+    text-align: center;
+    font-size: 40px;
+}
+#imgservices{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    
+}
+
+
+#micline{
+    height: 350px;
+    width: 380px;
+    text-align: center;
+    margin-left: 50px;
+}
+#micstand{
+    height: 350px;
+    width: 380px;
+    text-align: center;
+    margin-left: 50px;
+}
+#headmic{
+    height: 350px;
+    width: 380px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+
+main{
+    height: 80vh;
+    width: 100%;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShF-dZYO5nBbpmijJqUIpC9tngszNSczskmQ&s); */
+   background-image: linear-gradient(45deg,red 25%,#6610f2);
+   
+    background-repeat: no-repeat;
+    background-size: 100% 80vh;
+    position: relative;
+}
+#img1{
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+    height: 400px;
+    width: 400px;
+
+} 
+#theair{
+    font-size: 80px;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+    color: white;
+}
+#mainp{
+    position: absolute;
+    top: 200px;
+    font-size: 20px;
+    width: 50%;
+    left: 100px;
+    text-align: justify;
+    color: white;
+    line-height: 27px;
+}
+    
+button{
+    position: absolute;
+    bottom: 130px;
+    left: 100px;
+    padding: 15px 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+   
+
+#ig1{
+    position: absolute;
+    right: 100px;
+    bottom: 200px;
+    height: 350px;
+    width: 350px;
+
+}
+
+#aboutbox{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(to right,#6610f2,purple);
+    background-size: 100% 500px;
+    position:relative;
+
+
+}
+#abouth1{
+    position: absolute;
+    left:50px;
+    top: 60px;
+}
+#aboutp{
+    position: absolute;
+    left:50px;
+    top: 160px;
+    width: 45%;
+    font-size: 20px;
+    text-align: justify;
+    color:white;
+    line-height: 27px;
+}
+
+#aboutb{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    border-radius: 15px;
+}
+#abouti{
+    position: absolute;
+    height: 400px;
+    width:45%;
+    right:50px;
+    bottom:50px;
+    border-radius: 30px;
+}
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Section Styling */
+  .mic-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .mic-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .mic-section p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  /* Gallery Styling */
+  .mic-gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-left: 150px;
+    
+  }
+  
+  .mic-item {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    background: linear-gradient(to bottom, red, purple);
+    padding: 3px;
+    
+  }
+  
+  .mic-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  /* #reqcall{
+    height: 20px;
+    width: 100px;
+    background-color: #555;
+  }
+  #send{
+    position: absolute;
+    bottom: 130px;
+    left: 100px;
+    padding: 15px 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+  } */
+
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#request {
+    text-align: center;
+}
+
+#there{
+    text-align: justify;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    height: 250px;
+}
+
+footer .logo {
+    text-align: center;
+}
+
+footer .contact, .newsletter, .social {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer .social a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+footer .social a:hover {
+    color: #007bff;
+}
+#Subscribe{
+    bottom: 150px;
+    left: 18px;
+    position: absolute;
+    padding: 3px 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+}
+/* #newlet{
+    position:absolute;
+    left:550;
+
+} */
+#add{
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    left: 525px;
+
+}
+.contact{
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    left: 350px;
+}
+form{
+    margin-bottom: 60px;
+}
+
+#send{
+    position: absolute;
+    bottom: -2240px;
+    left: 630px;
+   
+}
